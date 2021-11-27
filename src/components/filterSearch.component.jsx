@@ -29,12 +29,12 @@ const FilterSearch = ({ setDepartment, department, setSem, sem }) => {
         }}
       >
         <option value="none">Semester</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-        <option value="4">Four</option>
-        <option value="5">Five</option>
-        <option value="6">Six</option>
+        <option value="1">I</option>
+        <option value="2">II</option>
+        <option value="3">III</option>
+        <option value="4">IV</option>
+        <option value="5">V</option>
+        <option value="6">VI</option>
       </select>
     </div>
   );
