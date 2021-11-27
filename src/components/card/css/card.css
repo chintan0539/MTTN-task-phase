@@ -1,0 +1,20 @@
+.cardHolder {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.CardBody {
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+  height: auto;
+  width: 300px;
+  text-align: center;
+  background-color: antiquewhite;
+}

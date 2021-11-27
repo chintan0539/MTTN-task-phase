@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FilterSearch from "./components/filterSearch.component";
+import Header from "./components/header.component";
+import { useState, useEffect } from "react";
+import CardHolder from "./components/card/CardHolder.component";
 
-function App() {
+const App = () => {
+  const [department, setDepartment] = useState("");
+  const [sem, setSem] = useState("");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Header />
+      <FilterSearch
+        setDepartment={setDepartment}
+        setSem={setSem}
+        department={department}
+        sem={sem}
+      />
+      <CardHolder sem={sem} department={department} />
     </div>
   );
-}
+};
 
 export default App;
