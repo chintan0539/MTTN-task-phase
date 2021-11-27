@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to MTTN-taskPhase-By-Chintan 👋</h1>
+<h1 align="center">Welcome to Chintan's taskphase work 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
 </p>
@@ -7,7 +7,7 @@
 
 ### 🏠 [Homepage](mttn-taskphase-chintan.netlify.app)
 
-### ✨ [Demo](mttn-taskphase-chintan.netlify.app)
+### ✨
 
 ## Install
 
@@ -31,11 +31,12 @@ npm run test
 
 👤 **Chintan patel**
 
-* Github: [@chintan0539](https://github.com/chintan0539)
+- Github: [@chintan0539](https://github.com/chintan0539)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
