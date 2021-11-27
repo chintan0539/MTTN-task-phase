@@ -5,7 +5,7 @@
 
 > Study material bank
 
-### 🏠 [Homepage](mttn-taskphase-chintan.netlify.app)
+### 🏠 [Homepage](https://mttn-taskphase-chintan.netlify.app/)
 
 ### ✨
 
