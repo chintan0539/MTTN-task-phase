@@ -3,9 +3,9 @@ import React from "react";
 const FilterSearch = ({ setDepartment, department, setSem, sem }) => {
   return (
     <div>
-      <h3>Please choose the department</h3>
+      <h3 className="select-title">Please choose the department</h3>
       <select
-        className="form-select form-select-lg mb-3"
+        className="form-select mb-3"
         aria-label="plz choose"
         value={department}
         defaultValue="none"
@@ -18,7 +18,7 @@ const FilterSearch = ({ setDepartment, department, setSem, sem }) => {
         <option value="EEE">Electrical and Electronics engineering</option>
       </select>
 
-      <h3>Please choose the Semester</h3>
+      <h3 className="select-title">Please choose the Semester</h3>
       <select
         className="form-select form-select-sm"
         aria-label="plz choose"

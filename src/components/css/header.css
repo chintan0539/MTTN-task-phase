@@ -5,3 +5,14 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+@media only screen and (max-device-width: 1000px) {
+  .header-title {
+    font-size: 200%;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .select-title {
+    font-size: 70%;
+  }
+}

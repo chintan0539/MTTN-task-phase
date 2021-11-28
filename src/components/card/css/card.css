@@ -18,3 +18,13 @@
   text-align: center;
   background-color: antiquewhite;
 }
+
+@media only screen and (max-device-width: 1000px) {
+  .cardHolder {
+    flex-direction: column;
+  }
+  .CardBody {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}
